@@ -1,4 +1,4 @@
-from h_h.module import greet
+from h_h import greet
 
 def main():
     greet()
