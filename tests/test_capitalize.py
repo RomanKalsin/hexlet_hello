@@ -1,10 +1,8 @@
 from h_h.capitalize import capitalize
 
 
-if capitalize('hello') != 'Hello':
-    raise Exception('Тесты не прошли!')
+assert capitalize('hello') == 'Hello'
 
-if capitalize('') != '':
-    raise Exception('Тесты не прошли!')
+assert capitalize('') == ''
 
 print('Тесты прошли!')
